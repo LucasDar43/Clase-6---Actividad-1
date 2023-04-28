@@ -10,9 +10,6 @@
             Console.WriteLine("Ingrese la segunda cadena de texto");
             string cadena2 = Console.ReadLine();
 
-            /*string cadena3 = cadena1 + " " + cadena2;
-            Console.WriteLine(cadena3);*/
-
             string cadena3 = InterleavingStrings(cadena1, cadena2);
 
             Console.WriteLine("La cadena intercalada es: {0}", cadena3);
